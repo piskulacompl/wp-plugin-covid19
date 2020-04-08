@@ -20,7 +20,7 @@ class CovidStatus extends WP_Widget {
     public function widget( $args, $instance ) {
         echo $args['before_widget'];
         
-		echo "<div id='covid' style='text-align:center;'>Zarażonych: 0 Śmierci: 0</div>";
+		echo "<div id='covid' style='text-align:center;'>Wczytywanie danych . . .</div>";
 
         echo $args['after_widget'];
     }
